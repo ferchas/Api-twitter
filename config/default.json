@@ -1,0 +1,27 @@
+{
+  "serverDb": {
+    "dbConnectionRetry": true,
+    "maxConnectionRetryTime": 60,
+    "port": 27017,
+    "host": "127.0.0.1/twitter",
+    "collectionCatch": "catchRequest"
+  },
+  "app":{
+    "url": "http://127.0.0.1/"
+  },
+  "service":{
+    "protocol": "http://",
+    "host": "localhost",
+    "port": 5050,
+    "pathname": "/api"
+  },
+  "twitter":{
+    "key": "xN9Zvo7d7VIryXiIvjvrLCpFO",
+    "secret": "qsRr4vPRAgWNkawm3eaASOsJAkVl48sBs9UnBvFq5765tE4xg3",
+    "token": "4363831341-4479sIGyYZru3rvqygOEvrXw8dmuY2htG8C4Ckd",
+    "token_secret":"b3ooQ6qwwFQottfEXWMHLZihd5ZQsCZ5vQZWGnfv5owXu"
+  },
+  "logs":{
+    "screenshotFolder": "/dev/shm"
+  }
+}
